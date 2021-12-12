@@ -1,0 +1,60 @@
+.video
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video iframe,
+.video object,
+.video embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+*
+{
+    font-weight: 400;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    -webkit-transition: all .4s ease-in 0s;
+         -o-transition: all .4s ease-in 0s;
+            transition: all .4s ease-in 0s;
+    text-decoration: none;
+
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    scroll-behavior: smooth;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+a,
+input,
+button,
+textarea
+{
+    display: inline-block;
+
+    outline: none;
+}
+@supports (-webkit-appearance:none)
+{
+}
